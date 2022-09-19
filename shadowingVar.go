@@ -10,5 +10,7 @@ func main() {
         n = 1
         n++
     }
-    fmt.Println(n) // 0
+	//%v == value of n
+	//%T == data type of n
+    fmt.Printf("%v, %T", n, n) // 0
 }
